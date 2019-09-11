@@ -1,0 +1,8 @@
+	variable estimate standard_error
+	X1 &  -0.9401 & 0.0587\\
+	X4 &  0.9548 & 0.0906\\
+	X5 &  1.0076 & 0.0934\\
+	X6 &  1.0661 & 0.0942\\
+
+final LL = -760.942066
+number of obs = 1000

@@ -1,0 +1,8 @@
+#ifndef FORTRAN_DE_MARDE
+#define FORTRAN_DE_MARDE
+
+
+double mvuni_(int mode = 0);
+
+
+#endif

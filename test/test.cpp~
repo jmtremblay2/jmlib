@@ -1,0 +1,19 @@
+#include <jm/logit.hpp>
+#include <jm/oprobit.hpp>
+//#include <jm/dc2.hpp>
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	// logit
+	rentix::Logit L("Dlogit.txt","logit.spec");
+	L.solve();
+	L.print("resultsLogit.txt");
+	
+	rentix::Oprobit OP("Doprobit.txt","oprobit.spec");
+	OP.solve();
+	OP.print("resultsOP.txt");
+	
+	return 0;
+}
